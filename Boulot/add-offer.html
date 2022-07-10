@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/5a96a048bc.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav ">
+                <a href="index.html" class="logo">Jobs.</a>
+                <ul class="nav-list">
+                    <li>
+                        <a href="my-Offers.html" class="nav-link">My Offers</a>
+                    </li>
+
+                    <li>
+                        <a href="requests.html" class="nav-link">Requests</a>
+                    </li>
+
+
+                </ul>
+                <button style="margin-left:9px ;" id="nav-cta" type="button" class="btn btn-primary offer"
+                    data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Add Offer
+                </button>
+                <a href="#" id="nav-cta" style="margin-left: 9px;">Log Out</a>
+            </nav>
+        </div>
+
+
+    </header>
+    <div class="container-fluid mycards row " style="padding-top: 120px ;">
+
+        <div class="card col-3">
+            <div class="card-body">
+                <div class="head">
+                    <img src="https://www.mantruckandbus.com/fileadmin/media/bilder/02_19/219_05_busbusiness_interviewHeader_1485x1254.jpg"
+                        alt="">
+                    <button type="button" class="btn btn-danger delete" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="card-infos">
+                    <h5 class="card-title"> <b>Post ID :</b> 0137508 </h5>
+                    <h5 class="card-title"><b>Post Name :</b> Uber service</h5>
+                </div>
+                <h5 class="card-title"><b>Description :</b> Searching for a trustworthy person who will be available to
+                    drive my child to school this monday.</h5>
+                <div class="other-infos "><i class="fa-solid fa-location-dot"></i>
+                    <p>Tunis</p>
+                </div>
+                <div class="other-infos "><i class="fa-solid fa-sack-dollar"></i>
+                    <p>30 DT</p>
+
+                </div>
+                <div class="other-infos "><i class="fa-solid fa-clock"></i></i>
+                    <p>17/07/2022</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="card col-3">
+            <div class="card-body">
+                <div class="head">
+                    <img src="https://www.mantruckandbus.com/fileadmin/media/bilder/02_19/219_05_busbusiness_interviewHeader_1485x1254.jpg"
+                        alt="">
+                    <button type="button" class="btn btn-danger delete" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="card-infos">
+                    <h5 class="card-title"><b>Post ID :</b> 0177508 </h5>
+                    <h5 class="card-title"><b>Post Name :</b> Delivery</h5>
+                </div>
+                <h5 class="card-title"><b>Description :</b> We're searching for someone who would deliver food and the
+                    needs of our guests.</h5>
+                <div class="other-infos "><i class="fa-solid fa-location-dot"></i>
+                    <p>Lac 1</p>
+                </div>
+                <div class="other-infos "><i class="fa-solid fa-sack-dollar"></i>
+                    <p>75 DT</p>
+
+                </div>
+                <div class="other-infos "><i class="fa-solid fa-clock"></i></i>
+                    <p>20/08/2022</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="card col-3">
+            <div class="card-body">
+                <div class="head">
+                    <img src="https://www.mantruckandbus.com/fileadmin/media/bilder/02_19/219_05_busbusiness_interviewHeader_1485x1254.jpg"
+                        alt="">
+                    <button type="button" class="btn btn-danger delete" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="card-infos">
+                    <h5 class="card-title"><b>Post ID :</b> 0137508 </h5>
+                    <h5 class="card-title"><b>Post Name :</b> Bills</h5>
+                </div>
+                <h5 class="card-title"><b>Description :</b> Searching for someone who would pay my bills this saturday.
+                </h5>
+                <div class="other-infos "><i class="fa-solid fa-location-dot"></i>
+                    <p>Bizerte</p>
+                </div>
+                <div class="other-infos "><i class="fa-solid fa-sack-dollar"></i>
+                    <p>185 DT</p>
+                </div>
+                <div class="other-infos "><i class="fa-solid fa-clock"></i></i>
+                    <p>08/07/2022</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="card col-3">
+            <div class="card-body">
+                <div class="head">
+                    <img src="https://www.mantruckandbus.com/fileadmin/media/bilder/02_19/219_05_busbusiness_interviewHeader_1485x1254.jpg"
+                        alt="">
+                    <button type="button" class="btn btn-danger delete" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="card-infos">
+                    <h5 class="card-title"><b>Post ID :</b> 0247508 </h5>
+                    <h5 class="card-title"><b>Post Name :</b> Design</h5>
+                </div>
+                <h5 class="card-title"><b>Description :</b> Our startup is searching for a logo designer for a freelance
+                    work.</h5>
+                <div class="other-infos "><i class="fa-solid fa-location-dot"></i>
+                    <p>Remote</p>
+                </div>
+                <div class="other-infos "><i class="fa-solid fa-sack-dollar"></i>
+                    <p>130 DT</p>
+                </div>
+
+                <div class="other-infos "><i class="fa-solid fa-clock"></i></i>
+                    <p>17/06/2022</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="card col-3">
+            <div class="card-body">
+                <div class="head">
+                    <img src="https://www.mantruckandbus.com/fileadmin/media/bilder/02_19/219_05_busbusiness_interviewHeader_1485x1254.jpg"
+                        alt="">
+                    <button type="button" class="btn btn-danger delete" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="card-infos">
+                    <h5 class="card-title"><b>Post ID :</b> 014508 </h5>
+                    <h5 class="card-title"><b>Post Name :</b> Baby Sitting</h5>
+                </div>
+                <h5 class="card-title"><b>Description :</b> Our company is searching for a baby sitter in order to take
+                    care of our guests' children </h5>
+                <div class="other-infos "><i class="fa-solid fa-location-dot"></i>
+                    <p>Menzah 6</p>
+                </div>
+                <div class="other-infos "><i class="fa-solid fa-sack-dollar"></i>
+                    <p>65 DT</p>
+                </div>
+                <div class="other-infos "><i class="fa-solid fa-clock"></i></i>
+                    <p>05/06/2022</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="card col-3">
+            <div class="card-body">
+                <div class="head">
+                    <img src="https://www.mantruckandbus.com/fileadmin/media/bilder/02_19/219_05_busbusiness_interviewHeader_1485x1254.jpg"
+                        alt="">
+                    <button type="button" class="btn btn-danger delete" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="card-infos">
+                    <h5 class="card-title"><b>Post ID :</b> 0137508 </h5>
+                    <h5 class="card-title"><b>Post Name :</b> Moving out</h5>
+                </div>
+                <h5 class="card-title"><b>Description :</b> I'll be moving out to another house and I'm currently
+                    searching for someone who would help.</h5>
+                <div class="other-infos "><i class="fa-solid fa-location-dot"></i>
+                    <p>Sfax</p>
+                </div>
+                <div class="other-infos "><i class="fa-solid fa-sack-dollar"></i>
+                    <p>120 DT</p>
+
+                </div>
+                <div class="other-infos "><i class="fa-solid fa-clock"></i></i>
+                    <p>03/06/2022</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="card col-3">
+            <div class="card-body">
+                <div class="head">
+                    <img src="https://www.mantruckandbus.com/fileadmin/media/bilder/02_19/219_05_busbusiness_interviewHeader_1485x1254.jpg"
+                        alt="">
+                    <button type="button" class="btn btn-danger delete" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="card-infos">
+                    <h5 class="card-title"><b>Post ID :</b> 0731508 </h5>
+                    <h5 class="card-title"><b>Post Name :</b> Bills</h5>
+                </div>
+                <h5 class="card-title"><b>Desription :</b> Searching for someone who would pay my bills</h5>
+                <div class="other-infos "><i class="fa-solid fa-location-dot"></i>
+                    <p>Remote</p>
+                </div>
+                <div class="other-infos "><i class="fa-solid fa-sack-dollar"></i>
+                    <p>130 DT</p>
+                </div>
+                <div class="other-infos "><i class="fa-solid fa-clock"></i></i>
+                    <p>17/05/2022</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="card col-3">
+            <div class="card-body">
+                <div class="head">
+                    <img src="https://www.mantruckandbus.com/fileadmin/media/bilder/02_19/219_05_busbusiness_interviewHeader_1485x1254.jpg"
+                        alt="">
+                    <button type="button" class="btn btn-danger delete" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="card-infos">
+                    <h5 class="card-title"><b>Post ID :</b> 0137508 </h5>
+                    <h5 class="card-title"><b>Post Name :</b> Web Development</h5>
+                </div>
+                <h5 class="card-title"><b>Description :</b> Searching for a freelancer for a simple task for our IT
+                    service.</h5>
+                <div class="other-infos "><i class="fa-solid fa-location-dot"></i>
+                    <p>Remote</p>
+                </div>
+                <div class="other-infos "><i class="fa-solid fa-sack-dollar"></i>
+                    <p>180 DT</p>
+                </div>
+                <div class="other-infos "><i class="fa-solid fa-clock"></i></i>
+                    <p>28/05/2022</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="card col-3">
+            <div class="card-body">
+                <div class="head">
+                    <img src="https://www.mantruckandbus.com/fileadmin/media/bilder/02_19/219_05_busbusiness_interviewHeader_1485x1254.jpg"
+                        alt="">
+                    <button type="button" class="btn btn-danger delete" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="card-infos">
+                    <h5 class="card-title"><b>Post ID :</b> 0637508 </h5>
+                    <h5 class="card-title"><b>Post Name :</b> Administrations</h5>
+                </div>
+                <h5 class="card-title"><b>Description :</b> Serachhing for someone who would deliver some papers</h5>
+                <div class="other-infos "><i class="fa-solid fa-location-dot"></i>
+                    <p>Tunis</p>
+                </div>
+                <div class="other-infos "><i class="fa-solid fa-sack-dollar"></i>
+                    <p>15 DT</p>
+                </div>
+                <div class="other-infos "><i class="fa-solid fa-clock"></i></i>
+                    <p>05/05/2022</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLabel" style="color: rgb(197, 18, 18) ;">Delete Alert!</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="font-size: 12px ;">
+                    <b>Do you really want to delete this offer? </b>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                        style="font-size: 14px; border-radius: 10px;">Go Back</button>
+                    <button type="button" class="btn btn-danger"
+                        style=" font-size: 14px; border: none; border-radius: 10px;">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade second-modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="staticBackdropLabel">Add Offer</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body " style="font-size: 12px ;">
+                    <form class="row g-3">
+                        <div class="col-md-12">
+                            <label for="inputEmail4" class="form-label"><b>Post Name</b></label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="inputEmail4" class="form-label"><b>Description</b></label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label"><b>Address</b></label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+
+                        <div class="col-md-4">
+                            <label for="inputCity" class="form-label"><b>Salary</b></label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputState" class="form-label"><b>Currency</b></label>
+                            <select id="inputState" class="form-select">
+                                <option selected><b>TND</b></option>
+                                <option><b>EUR</b></option>
+                                <option><b>USD</b></option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 extra" >
+                            <label for="Date" style="font-size: 11px ;"><b>Date</b></label>
+                            <input type="date" id="Date" name="Date" class="date" >
+                        </div>
+                        
+                        
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary col-2" data-bs-dismiss="modal" style="border-radius: 8px;">Cancel</button>
+                    <button type="button" class="btn btn-primary col-2" style="background-color:#3972c7 !important ; border: none !important;border-radius: 8px;">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        window.addEventListener('scroll', function () {
+            let header = document.querySelector('header');
+            let mycards = document.querySelector('mycards');
+            let windowPosition = window.scrollY > 0;
+            header.classList.toggle('scrolling-active', windowPosition);
+            mycards.classList.toggle('scrolling-active', windowPosition);
+        })
+
+    </script>
+    <script src="style.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
